@@ -1,0 +1,28 @@
+{
+  "name": "intenship-task",
+  "version": "1.0.0",
+  "description": "Internship task rest api",
+  "main": "app.js",
+  "engines": {
+    "node": "14.15.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production MONGO_USER=Nikhil_M MONGO_PASSWORD=iFaDJnE1kqRLphFG MONGO_DEFAULT_DATABASE=auth node app.js",
+    "start-server": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Nikhil M",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.8"
+  }
+}
